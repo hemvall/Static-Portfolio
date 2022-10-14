@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../assets/css/contact.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+  </head>
+
+  <body>
+    <br />
+    <div class="btn-top-center">
+      <a href="../../index.html" class="btn-top">Accueil</a>
+    </div>
+
+    <br /><br />
+    <div class="formulaire">
+      <form action="#">
+        <label for="to">Pour :</label><br />
+        <input
+          type="text"
+          id="to"
+          value="louis.serrano@gastonberger.fr"
+        /><br />
+        <label for="objet">Objet :</label><br />
+        <input type="text" id="objet" value="" />
+
+        <select id="envoi" name="#">
+          <option>Selectionnez un mode d'envoi..</option>
+          <option>Envoi instantané</option>
+          <option>Dans 15mn</option>
+          <option>Dans 1h</option>
+          <option>Dans 24h</option>
+        </select>
+
+        <label for="txt">Message :</label><br />
+        <input type="text" id="txt" value="" /><br />
+        <br />
+
+        <input type="submit" value="Envoyer" />
+      </form>
+    </div>
+  </body>
+</html>
